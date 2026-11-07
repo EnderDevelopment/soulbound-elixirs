@@ -1,0 +1,14 @@
+name: SoulBottles
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Original collectible soul bottles with active abilities and passive powers.
+commands:
+  soul:
+    description: Manage and receive soul bottles.
+    usage: /soul <give|list> [player] [soul]
+    permission: soulbottles.command
+permissions:
+  soulbottles.command:
+    description: Allows use of soul bottle commands.
+    default: op
